@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Open_Sans, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import "./globals.css";
 import NavBarHeader from "@/components/NavBarHeader";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -20,15 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
-          <NavBarHeader />
-          <MaxWidthWrapper>{children}</MaxWidthWrapper>
-        </ThemeProvider>
+        > */}
+        <NavBarHeader />
+        <MaxWidthWrapper>{children}</MaxWidthWrapper>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
