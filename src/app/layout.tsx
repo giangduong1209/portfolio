@@ -27,7 +27,7 @@ export default function RootLayout({
           disableTransitionOnChange
         > */}
         <NavBarHeader />
-        <MaxWidthWrapper>{children}</MaxWidthWrapper>
+        {children}
         {/* </ThemeProvider> */}
       </body>
     </html>

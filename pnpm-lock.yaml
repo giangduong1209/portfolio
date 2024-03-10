@@ -32,6 +32,9 @@ dependencies:
   react:
     specifier: ^18
     version: 18.2.0
+  react-anchor-link-smooth-scroll:
+    specifier: ^1.0.12
+    version: 1.0.12
   react-dom:
     specifier: ^18
     version: 18.2.0(react@18.2.0)
@@ -52,6 +55,9 @@ devDependencies:
   '@types/react':
     specifier: ^18
     version: 18.2.61
+  '@types/react-anchor-link-smooth-scroll':
+    specifier: ^1.0.5
+    version: 1.0.5
   '@types/react-dom':
     specifier: ^18
     version: 18.2.19
@@ -1428,6 +1434,12 @@ packages:
 
   /@types/prop-types@15.7.11:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
+
+  /@types/react-anchor-link-smooth-scroll@1.0.5:
+    resolution: {integrity: sha512-/OYQGmPMQ5IkEhQpiOtaMjOovdG8Vwr4UmCyIN7AiBoTvcAa5drg5Lizy9Bdz/WAnXFWj8xnQPwIxUWsVZUuew==}
+    dependencies:
+      '@types/react': 18.2.61
+    dev: true
 
   /@types/react-dom@18.2.19:
     resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
@@ -3902,6 +3914,10 @@ packages:
 
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+
+  /react-anchor-link-smooth-scroll@1.0.12:
+    resolution: {integrity: sha512-aaY+9X0yh8YnC0jBfoTKpsiCLdO/Y6pCltww+VB+NnTBPDOvnIdnp1AlazajsDitc1j+cVSQ+yNtaVeTIMQbxw==}
+    dev: false
 
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}

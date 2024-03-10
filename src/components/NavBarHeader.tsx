@@ -2,10 +2,11 @@
 import React, { useState } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
-import { ModeToggle } from "./ModeToggle";
+
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavBarHeader = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -22,12 +23,6 @@ const NavBarHeader = () => {
             className="text-md hover:text-primary transition-colors"
           >
             About
-          </Link>
-          <Link
-            href="#skill"
-            className="text-md hover:text-primary transition-colors"
-          >
-            Skill
           </Link>
           <Link
             href="#education"
@@ -67,7 +62,12 @@ const NavBarHeader = () => {
       </div>
 
       {/* <ModeToggle /> */}
-      <div className="absolute h-screen w-full bg-black/20 overflow-hidden z-30 sm:hidden">
+      <div
+        className={cn(
+          "absolute h-screen w-full overflow-hidden z-30 sm:hidden",
+          toggleMenu ? "bg-black/20 block" : "hidden"
+        )}
+      >
         <div
           className={cn(
             "absolute bg-white h-screen w-full max-w-80 right-0 flex flex-col justify-center items-center space-y-10 translate-x-full transition-all z-50 sm:hidden",
@@ -80,12 +80,7 @@ const NavBarHeader = () => {
           >
             About
           </Link>
-          <Link
-            href="#skill"
-            className="font-semibold hover:text-primary transition-colors"
-          >
-            Skill
-          </Link>
+
           <Link
             href="#education"
             className="font-semibold hover:text-primary transition-colors"
