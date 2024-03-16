@@ -17,8 +17,8 @@ const Intro = () => {
         <br />
         <p>
           I’m a software engineer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building accessible, human-centered products at Upstatement.
+          designing) exceptional user experiences. Currently, I’m focused on
+          building highly accessible app to meet user requirements.
         </p>
         <Button className="mt-10">Learn more!</Button>
       </div>

@@ -64,7 +64,7 @@ const NavBarHeader = () => {
       {/* <ModeToggle /> */}
       <div
         className={cn(
-          "absolute h-screen w-full overflow-hidden z-30 sm:hidden",
+          "absolute h-screen w-full overflow-hidden transition-all z-30 sm:hidden",
           toggleMenu ? "bg-black/20 block" : "hidden"
         )}
       >
