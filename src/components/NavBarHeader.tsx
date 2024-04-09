@@ -1,12 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
-
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavBarHeader = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -34,20 +31,17 @@ const NavBarHeader = () => {
             href="#experience"
             className="text-md hover:text-primary transition-colors"
           >
-            Experience
+            Experiences
           </Link>
           <Link
             href="#project"
             className="text-md hover:text-primary transition-colors"
           >
-            Project
+            Projects
           </Link>
-          <Link
-            href="#getInTouch"
-            className="text-md hover:text-primary transition-colors"
-          >
+          <Button className="text-md transition-colors border-2 border-primary rounded-full py-2 px-10 bg-transparent text-primary-500 hover:bg-primary hover:text-white">
             Get In Touch
-          </Link>
+          </Button>
         </div>
         <Button
           variant="outline"
@@ -64,13 +58,17 @@ const NavBarHeader = () => {
       {/* <ModeToggle /> */}
       <div
         className={cn(
-          "absolute h-screen w-full overflow-hidden transition-all z-30 sm:hidden",
-          toggleMenu ? "bg-black/20 block" : "hidden"
+          "absolute h-screen w-full overflow-hidden z-30 hidden",
+          toggleMenu ? "block" : "hidden"
         )}
       >
         <div
+          className="absolute inset-0 bg-black/20"
+          onClick={() => setToggleMenu(false)}
+        />
+        <div
           className={cn(
-            "absolute bg-white h-screen w-full max-w-80 right-0 flex flex-col justify-center items-center space-y-10 translate-x-full transition-all z-50 sm:hidden",
+            "absolute bg-white h-screen w-full max-w-80 right-0 flex flex-col justify-center items-center space-y-10 transition-all translate-x-full z-50 sm:hidden",
             toggleMenu ? "translate-x-0" : ""
           )}
         >
@@ -91,7 +89,7 @@ const NavBarHeader = () => {
             href="#experience"
             className="font-semibold hover:text-primary transition-colors"
           >
-            Experience
+            Experiences
           </Link>
           <Link
             href="#project"

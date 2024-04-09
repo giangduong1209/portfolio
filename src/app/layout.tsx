@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { Open_Sans, Inter } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider";
-import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import NavBarHeader from "@/components/NavBarHeader";
 

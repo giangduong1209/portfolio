@@ -7,8 +7,10 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 export default function Home() {
   return (
     <main>
-      <MaxWidthWrapper>
+      <div className="w-full max-w-screen-2xl mx-auto px-2.5">
         <Intro />
+      </div>
+      <MaxWidthWrapper>
         <About />
         <Education />
         <Experiences />
