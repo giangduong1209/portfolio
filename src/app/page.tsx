@@ -3,6 +3,7 @@ import Education from "@/components/Education";
 import Experiences from "@/components/Experiences";
 import Intro from "@/components/Intro";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <About />
         <Education />
         <Experiences />
+        <Projects />
       </MaxWidthWrapper>
     </main>
   );
