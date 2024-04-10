@@ -113,7 +113,7 @@ export const Point = () => {
 export const Pillar = () => {
   return (
     <div className="w-3">
-      <div className="w-0.5 h-96 mt-0.25 bg-slate-700 mx-auto"></div>
+      <div className="w-0.5 h-96 mt-0.25 bg-slate-700 mx-auto" />
     </div>
   );
 };
