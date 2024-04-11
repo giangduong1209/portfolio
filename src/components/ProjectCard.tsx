@@ -12,11 +12,17 @@ const ProjectCard = ({
 }: projects) => {
   const id = useId();
   return (
-    <div className="border border-slate-300 max-w-sm rounded-lg shadow-md">
+    <div className="border border-slate-300 rounded-lg shadow-md">
       <div>
-        <Image src={imgProject} width={600} height={600} alt="img project" />
+        <Image
+          src={imgProject}
+          width={600}
+          height={600}
+          alt="img project"
+          className=" object-cover"
+        />
       </div>
-      <div className="p-5">
+      <div className="p-3">
         <div className="mb-3">
           <h1 className="font-semibold text-2xl hover:text-primary uppercase">
             {projectName}

@@ -18,7 +18,7 @@ const Projects = ({ projects }: IProject) => {
   return (
     <div className="mt-20 sm:pt-60">
       <h1 className="text-6xl text-primary font-bold text-center">Projects</h1>
-      <div className="grid mt-5 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+      <div className="grid mt-5 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-5">
         {projects.map((val) => (
           <ProjectCard
             key={val.id}
