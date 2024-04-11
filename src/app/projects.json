@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2450ffb584e14ed78cb55359e713acb4",
+    "projectName": "PREDIX",
+    "imgProject": "/predix.png",
+    "description": "The web app provides multiple game for prediction such as: BO, Market,… In which, user can predict price in future or win/loss between two entities. All of the transaction is transparency becaused of implemented through the blockchain mechanism.",
+    "stack": ["Typescript", "Nextjs", "Firebase", "TailwindCss"],
+    "link": [
+      "https://github.com/giangduong1209/predix-app.git",
+      "https://predix.vercel.app/"
+    ]
+  },
+  {
+    "id": "a671374c8e3542dc8ef0fc4d4310fd6a",
+    "projectName": "1988 Dragon",
+    "imgProject": "/1988dragon.png",
+    "description": "1988Dragon sells gift cards that users can use as vouchers to buy clothing, electronics, groceries,... – even accommodations and flights for their next vacation. These gift cards are not physical but vouchers users receive via e-wallet, which they can redeem when paying later for products at partnered merchants",
+    "stack": ["Typescript", "Nextjs", "Firebase", "TailwindCss"],
+    "link": [
+      "https://github.com/giangduong1209/1988dragon.git",
+      "https://1988dragon.com/"
+    ]
+  },
+  {
+    "id": "5084695e57344cdc9821cf8cf60dbf73",
+    "projectName": "AICarePro",
+    "imgProject": "/aicp.jpg",
+    "description": "AI Care Pro is one of the first fitness brands to enter the hugely exciting Blockchain-NFT market and launch a range of NFTs. Partnering with Getfit, a chain of Gym and Yoga centers, the AI Care Pro project will deliver advanced user experiences through a fitness D-app and provide a limited-edition range of NFTs.",
+    "stack": ["Typescript", "React", "TailwindCSS", "+1"],
+    "link": [
+      "https://github.com/giangduong1209/aicarepro.git",
+      "https://aicarepro.com/"
+    ]
+  }
+]

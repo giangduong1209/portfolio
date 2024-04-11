@@ -11,7 +11,7 @@ const Intro = () => {
           height={500}
           alt="avatar"
           src="/avatar.png"
-          className="hidden md:block bg-none"
+          className="hidden md:block bg-none bg-transparent"
         />
       </div>
       <div className="w-full max-w-[820px] text-xl">

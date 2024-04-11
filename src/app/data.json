@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ec12366c1e4a43ee84f9889dad6bba38",
+    "companyName": "METAPOLIS COMPANY LIMITED",
+    "startDate": "1662802834000",
+    "endDate": "",
+    "position": "Frontend Developer",
+    "responsibility": [
+      "Collaborated with back-end team to integrate APIs",
+      "Built reusable code to utilise for other projects and to minimise costs.",
+      "Collaborated with designers to implement concept and design of website.",
+      "Developed designs to meet varying browser and device demands."
+    ]
+  },
+  {
+    "id": "9c25319b65d94610a7ab3f1677899419",
+    "companyName": "APPS CYCLONE TECHNOLOGY JSC",
+    "startDate": "1644486034000",
+    "endDate": "1649583634000",
+    "position": "Frontend Developer",
+    "responsibility": [
+      "Designed and implemented website interface for mobile, desktop and tablets.",
+      "Handled special projects designated by senior developer.",
+      "Designed layout and graphics to enhance aesthetics and appearance of website.",
+      "Researched new programming languages, frameworks and technologies to stay abreast with latest trend."
+    ]
+  }
+]
