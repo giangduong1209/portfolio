@@ -14,7 +14,7 @@
     "id": "a671374c8e3542dc8ef0fc4d4310fd6a",
     "projectName": "1988 Dragon",
     "imgProject": "/1988dragon.png",
-    "description": "1988Dragon sells gift cards that users can use as vouchers to buy clothing, electronics, groceries,... – even accommodations and flights for their next vacation. These gift cards are not physical but vouchers users receive via e-wallet, which they can redeem when paying later for products at partnered merchants",
+    "description": "1988Dragon sells gift cards that users can use as vouchers to buy clothing, electronics, groceries,... – even accommodations and flights for their next vacation. These gift cards are not physical but vouchers users receive via e-wallet, which they can redeem when paying later for products at partnered merchants.",
     "stack": ["Typescript", "Nextjs", "Firebase", "TailwindCss"],
     "link": [
       "https://github.com/giangduong1209/1988dragon.git",

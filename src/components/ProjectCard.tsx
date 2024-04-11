@@ -12,20 +12,22 @@ const ProjectCard = ({
 }: projects) => {
   const id = useId();
   return (
-    <div className="border border-slate-300 rounded-lg shadow-md">
+    <div className="flex flex-col justify-between md:w-[400px] md:h-[500px] border border-slate-300 rounded-lg shadow-md">
       <div>
         <Image
           src={imgProject}
           width={600}
           height={600}
           alt="img project"
-          className=" object-cover"
+          className="w-[500px] h-[200px] object-cover rounded-t-md"
         />
       </div>
-      <div className="p-3">
-        <div className="mb-3">
+      <div className="flex flex-col justify-between p-3 flex-1 gap-5">
+        <div>
           <h1 className="font-semibold text-2xl hover:text-primary uppercase">
-            {projectName}
+            <a href={link[1]} target="_blank">
+              {projectName}
+            </a>
           </h1>
           <p className="mt-2 w-full overflow-hidden text-ellipsis">
             {description}
