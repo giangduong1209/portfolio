@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@laye base {
-  @import "keep-react/css";
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
