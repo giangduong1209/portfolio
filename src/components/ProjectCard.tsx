@@ -12,7 +12,7 @@ const ProjectCard = ({
 }: projects) => {
   return (
     <div
-      className="flex flex-col justify-between md:w-[400px] md:h-[500px] border border-slate-300 rounded-lg shadow-md"
+      className="flex flex-col justify-between md:w-[380px] md:h-[500px] border border-slate-300 rounded-lg shadow-md"
       data-aos="fade-right"
       data-duration="3000"
     >
@@ -22,7 +22,7 @@ const ProjectCard = ({
           width={600}
           height={600}
           alt="img project"
-          className="w-[500px] h-[200px] object-cover rounded-t-md"
+          className="w-[400px] h-[200px] object-cover rounded-t-md"
         />
       </div>
       <div className="flex flex-col justify-between p-3 flex-1 gap-5">
