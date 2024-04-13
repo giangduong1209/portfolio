@@ -15,7 +15,10 @@ export interface IExperiencesData {
 const Experiences = ({ experiencesData }: IExperiencesData) => {
   return (
     <div className="pt-20 sm:pt-60" id="experience">
-      <h1 className="text-6xl text-primary font-bold" data-aos="fade-right">
+      <h1
+        className="text-5xl md:text-6xl text-primary font-bold"
+        data-aos="fade-right"
+      >
         Experiences
       </h1>
       <TimelineComponent experiencesData={experiencesData} />
