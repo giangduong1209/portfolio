@@ -88,14 +88,17 @@ const GetInTouch = ({
   }
 
   return (
-    <div className="py-20 sm:pt-60">
-      <h1 className="text-5xl md:text-6xl text-primary font-bold">
+    <div className="py-20 sm:pt-60" id="getintouch">
+      <h1
+        className="text-5xl md:text-6xl text-primary font-bold"
+        data-aos="fade-down-right"
+      >
         Get In Touch
       </h1>
       <Toaster position="top-right" />
 
       <div className="mt-5 md:flex md:justify-between gap-10">
-        <div className="max-w-lg flex-1">
+        <div className="max-w-lg flex-1" data-aos="zoom-out-up">
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <FormField
@@ -168,7 +171,7 @@ const GetInTouch = ({
             </form>
           </Form>
         </div>
-        <div className="flex-1 mt-10">
+        <div className="flex-1 mt-10" data-aos="fade-left">
           <div>
             <h2 className="uppercase font-semibold text-5xl mb-5 text-pink-500">
               Don&apos;t be shy

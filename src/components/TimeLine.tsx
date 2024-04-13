@@ -5,13 +5,16 @@ import { IExperiencesData } from "./Experiences";
 import dayjs from "dayjs";
 
 const TimelineComponent = ({ experiencesData }: IExperiencesData) => {
-  const id = useId();
-
   return (
     <div className="mt-10 md:flex md:justify-between">
       <div>
         {experiencesData.map((val) => (
-          <div key={val.id} className="flex-col justify-center items-center">
+          <div
+            key={val.id}
+            className="flex-col justify-center items-center"
+            data-aos="fade-in"
+            data-aos-duration="3000"
+          >
             <div className="flex items-center gap-2">
               <Point />
               <p className="italic">
@@ -27,8 +30,8 @@ const TimelineComponent = ({ experiencesData }: IExperiencesData) => {
                 <h1 className="font-bold text-lg">{val.companyName}</h1>
                 <p className="font-semibold text-md">{val.position}</p>
                 <ul className="mt-3 text-md flex flex-col gap-2 md:gap-5">
-                  {val.responsibility.map((res) => (
-                    <li key={id} className="flex gap-2">
+                  {val.responsibility.map((res, idx) => (
+                    <li key={idx} className="flex gap-2">
                       <SendHorizontal className="text-primary mt-0.5 w-5 h-5" />
                       <span className="flex-1">{res}</span>
                     </li>
@@ -39,7 +42,7 @@ const TimelineComponent = ({ experiencesData }: IExperiencesData) => {
           </div>
         ))}
       </div>
-      <div>
+      <div data-aos="fade-up-left">
         <Image
           src="https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="code work desk"

@@ -1,12 +1,15 @@
+"use client";
 import { Check } from "lucide-react";
 import React from "react";
 
 const About = () => {
   return (
-    <div className="pt-20 sm:pt-60">
-      <h1 className="text-6xl text-primary font-bold">About</h1>
+    <div className="pt-20 sm:pt-60" id="about">
+      <h1 className="text-6xl text-primary font-bold" data-aos="fade-in">
+        About
+      </h1>
       <div className="flex flex-col justify-center items-center gap-10 mt-10 sm:flex-row">
-        <div className="w-full sm:w-1/2">
+        <div className="w-full sm:w-1/2" data-aos="fade-right">
           <p className="text-3xl sm:text-4xl text-slate-600 font-bold">
             DUONG TRUONG GIANG
           </p>
@@ -15,7 +18,7 @@ const About = () => {
             I build pixel-perfect, engaging, and accessible digital experiences.
           </p>
         </div>
-        <div className="w-full sm:w-1/2">
+        <div className="w-full sm:w-1/2" data-aos="fade-up">
           <p>
             Hello! My name is Giang Duong and I enjoy creating things that live
             on the internet. My interest in web development started in 2022 when

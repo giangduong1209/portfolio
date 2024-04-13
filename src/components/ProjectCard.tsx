@@ -10,9 +10,12 @@ const ProjectCard = ({
   stack,
   link,
 }: projects) => {
-  const id = useId();
   return (
-    <div className="flex flex-col justify-between md:w-[400px] md:h-[500px] border border-slate-300 rounded-lg shadow-md">
+    <div
+      className="flex flex-col justify-between md:w-[400px] md:h-[500px] border border-slate-300 rounded-lg shadow-md"
+      data-aos="fade-right"
+      data-duration="3000"
+    >
       <div>
         <Image
           src={imgProject}
@@ -36,9 +39,9 @@ const ProjectCard = ({
         <div className="flex justify-between items-center border-t-[1px] border-slate-200">
           <div className="mt-2">
             <ul className="flex justify-center items-center gap-2">
-              {stack.slice(0, 3).map((stk) => (
+              {stack.slice(0, 3).map((stk, idx) => (
                 <li
-                  key={id}
+                  key={idx}
                   className=" bg-emerald-500 text-white py-0.5 px-2 rounded-lg"
                 >
                   {stk}
