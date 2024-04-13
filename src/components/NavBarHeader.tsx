@@ -10,7 +10,7 @@ const NavBarHeader = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
 
   return (
-    <div className="sticky h-24 top-0 inset-x-0 z-30 w-full border-b border-border bg-background/75 backdrop-blur-0 transition-all">
+    <div className="sticky h-24 top-0 inset-x-0 z-50 w-full border-b border-border bg-background transition-all">
       <div className="flex justify-between items-center h-24 border-b border-border px-3 md:px-20">
         <Link href="/" className="flex z-40 font-semibold" data-aos="fade-up">
           <Image
@@ -58,7 +58,7 @@ const NavBarHeader = () => {
         <Button
           variant="outline"
           size="icon"
-          className="sm:hidden"
+          className="z-50 sm:hidden"
           onClick={() => {
             setToggleMenu((prev) => !prev);
           }}
@@ -71,18 +71,15 @@ const NavBarHeader = () => {
       {/* <ModeToggle /> */}
       <div
         className={cn(
-          "absolute h-screen w-full overflow-hidden z-30 translate-x-full md:hidden",
-          toggleMenu ? "translate-x-0" : ""
+          "fixed top-24 right-0 w-0 h-full overflow-x-hidden duration-500 z-10 bg-black/20 sm:hidden",
+          toggleMenu ? "w-full" : "w-0"
         )}
+        onClick={() => setToggleMenu(false)}
       >
         <div
-          className="absolute inset-0 bg-black/20"
-          onClick={() => setToggleMenu(false)}
-        />
-        <div
           className={cn(
-            "absolute bg-white h-screen w-full max-w-80 right-0 flex flex-col justify-center items-center space-y-10 transition-all translate-x-full z-50 sm:hidden",
-            toggleMenu ? "translate-x-0" : ""
+            "fixed top-0 right-0 bg-gradient-to-r bg-white w-0 h-full flex justify-center items-center flex-col gap-10 overflow-x-hidden duration-500 font-bold z-40",
+            toggleMenu ? "w-60" : "w-0"
           )}
         >
           <Link

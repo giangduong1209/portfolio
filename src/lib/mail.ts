@@ -20,19 +20,17 @@ export const sendMail = async ({
     },
   });
   try {
-    const testResult = await transport.verify();
-    console.log(testResult);
+    await transport.verify();
   } catch (e) {
     console.log(e);
   }
   try {
-    const sendResult = await transport.sendMail({
+    await transport.sendMail({
       from: SMTP_EMAIL,
       to,
       subject,
       html: body,
     });
-    console.log(sendResult);
   } catch (error) {
     console.log(error);
   }

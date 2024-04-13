@@ -98,7 +98,7 @@ const GetInTouch = ({
       <Toaster position="top-right" />
 
       <div className="mt-5 md:flex md:justify-between gap-10">
-        <div className="max-w-lg flex-1" data-aos="zoom-out-up">
+        <div className="w-1/2" data-aos="zoom-out-up">
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <FormField
@@ -171,7 +171,7 @@ const GetInTouch = ({
             </form>
           </Form>
         </div>
-        <div className="flex-1 mt-10" data-aos="fade-left">
+        <div className="w-1/2 mt-10" data-aos="fade-left">
           <div>
             <h2 className="uppercase font-semibold text-5xl mb-5 text-pink-500">
               Don&apos;t be shy
