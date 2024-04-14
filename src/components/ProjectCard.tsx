@@ -35,7 +35,7 @@ const ProjectCard = ({
         <div className="flex justify-between items-center border-t-[1px] border-slate-200">
           <div className="mt-2">
             <ul className="flex justify-center items-center gap-2">
-              {stack.slice(0, 3).map((stk, idx) => (
+              {stack.slice(0, 2).map((stk, idx) => (
                 <li
                   key={idx}
                   className=" bg-emerald-500 text-white py-0.5 px-2 rounded-lg"
