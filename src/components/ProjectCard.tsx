@@ -11,11 +11,7 @@ const ProjectCard = ({
   link,
 }: projects) => {
   return (
-    <div
-      className="flex flex-col justify-between md:w-[380px] md:h-[500px] border border-slate-300 rounded-lg shadow-md"
-      data-aos="zoom-in"
-      data-duration="3000"
-    >
+    <div className="flex flex-col justify-between md:w-[380px] md:h-[500px] border border-slate-300 rounded-lg shadow-md">
       <div>
         <Image
           src={imgProject}
