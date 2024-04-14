@@ -59,7 +59,6 @@ const NavBarHeader = () => {
           onClick={() => {
             setToggleMenu((prev) => !prev);
           }}
-          data-aos="fade-left"
         >
           <Menu />
         </Button>
