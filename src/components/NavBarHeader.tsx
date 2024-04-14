@@ -10,7 +10,7 @@ const NavBarHeader = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
 
   return (
-    <div className="sticky h-14 top-0 inset-x-0 z-50 w-full border-b border-border bg-background transition-all">
+    <div className="sticky h-14 top-0 inset-x-0 z-50 w-full border-b border-border bg-background/75 transition-all backdrop-blur-0">
       <div className="flex justify-between items-center h-14 border-b border-border px-3 md:px-20">
         <Link href="/" className="flex z-40 font-semibold">
           <Image
@@ -67,7 +67,7 @@ const NavBarHeader = () => {
       {/* <ModeToggle /> */}
       <div
         className={cn(
-          "fixed top-24 right-0 w-0 h-full overflow-x-hidden duration-500 z-10 bg-black/20 sm:hidden",
+          "fixed top-14 right-0 w-0 h-full overflow-x-hidden duration-500 z-10 bg-black/20 sm:hidden",
           toggleMenu ? "w-full" : "w-0"
         )}
         onClick={() => setToggleMenu(false)}
