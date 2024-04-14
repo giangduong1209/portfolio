@@ -12,7 +12,7 @@ const ProjectCard = ({
 }: projects) => {
   return (
     <div className="flex flex-col justify-between w-full md:w-[380px] md:h-[500px] border border-slate-300 rounded-lg shadow-md">
-      <div>
+      {/* <div>
         <Image
           src={imgProject}
           width={600}
@@ -20,7 +20,7 @@ const ProjectCard = ({
           alt="img project"
           className="w-full md:w-[400px] md:h-[200px] object-cover rounded-t-md"
         />
-      </div>
+      </div> */}
       <div className="flex flex-col justify-between p-3 flex-1 gap-5">
         <div>
           <h1 className="font-semibold text-2xl hover:text-primary uppercase">
