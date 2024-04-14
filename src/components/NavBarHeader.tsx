@@ -10,13 +10,9 @@ const NavBarHeader = () => {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
 
   return (
-    <div className="sticky h-24 top-0 inset-x-0 z-50 w-full border-b border-border bg-background transition-all">
-      <div className="flex justify-between items-center h-24 border-b border-border px-3 md:px-20">
-        <Link
-          href="/"
-          className="flex z-40 font-semibold"
-          data-aos="fade-right"
-        >
+    <div className="sticky h-14 top-0 inset-x-0 z-50 w-full border-b border-border bg-background transition-all">
+      <div className="flex justify-between items-center h-14 border-b border-border px-3 md:px-20">
+        <Link href="/" className="flex z-40 font-semibold">
           <Image
             alt="Logo brand"
             src="/logo.png"
@@ -25,10 +21,7 @@ const NavBarHeader = () => {
             className="object-cover"
           />
         </Link>
-        <div
-          className="hidden items-center space-x-4 sm:flex"
-          data-aos="fade-left"
-        >
+        <div className="hidden items-center space-x-4 sm:flex">
           <Link
             href="#about"
             className="text-md hover:text-primary transition-colors"
@@ -66,7 +59,6 @@ const NavBarHeader = () => {
           onClick={() => {
             setToggleMenu((prev) => !prev);
           }}
-          data-aos="fade-left"
         >
           <Menu />
         </Button>

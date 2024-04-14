@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import React from "react";
 import Image from "next/image";
 import { ExternalLink, Github } from "lucide-react";
 import { projects } from "./Projects";
