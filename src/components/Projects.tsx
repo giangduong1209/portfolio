@@ -27,7 +27,7 @@ const Projects = ({ projects }: IProject) => {
         className="grid mt-5 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-5"
         data-aos="fade-in"
       >
-        {projects.map((val) => (
+        {/* {projects.map((val) => (
           <ProjectCard
             key={val.id}
             id={val.id}
@@ -37,7 +37,7 @@ const Projects = ({ projects }: IProject) => {
             stack={val.stack}
             link={val.link}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   );
