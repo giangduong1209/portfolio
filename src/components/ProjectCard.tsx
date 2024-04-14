@@ -11,8 +11,8 @@ const ProjectCard = ({
   link,
 }: projects) => {
   return (
-    <div className="flex flex-col justify-between w-full border border-slate-300 rounded-lg shadow-md">
-      {/* <div>
+    <div className="flex flex-col md:w-[400px] md:h-[500px] justify-between w-full border border-slate-300 rounded-lg shadow-md">
+      <div>
         <Image
           src={imgProject}
           width={600}
@@ -20,7 +20,7 @@ const ProjectCard = ({
           alt="img project"
           className="w-full md:w-[400px] md:h-[200px] object-cover rounded-t-md"
         />
-      </div> */}
+      </div>
       <div className="flex flex-col justify-between p-3 flex-1 gap-5">
         <div>
           <h1 className="font-semibold text-2xl hover:text-primary uppercase">
@@ -43,6 +43,9 @@ const ProjectCard = ({
                   {stk}
                 </li>
               ))}
+              <li className=" bg-emerald-500 text-white py-0.5 px-2 rounded-lg">
+                +1
+              </li>
             </ul>
           </div>
           <div className="flex justify-center items-center gap-5 mt-2">

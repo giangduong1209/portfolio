@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const inter = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Giang Duong",
+  title: "GDEV",
   description:
     "Explore a showcase of my diverse portfolio, featuring a fusion of creativity and innovation. From sleek web designs to captivating branding projects, witness my passion for crafting compelling digital experiences. Discover how I blend aesthetics with functionality to deliver impactful solutions tailored to your needs.",
 };
