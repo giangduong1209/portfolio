@@ -23,7 +23,10 @@ const Projects = ({ projects }: IProject) => {
       >
         Projects
       </h1>
-      <div className="grid mt-5 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-5">
+      <div
+        className="grid mt-5 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-5"
+        data-aos="fade-in"
+      >
         {projects.map((val) => (
           <ProjectCard
             key={val.id}

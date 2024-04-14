@@ -18,7 +18,7 @@ const ProjectCard = ({
           width={600}
           height={600}
           alt="img project"
-          className="w-[400px] h-[200px] object-cover rounded-t-md"
+          className="w-full md:w-[400px] md:h-[200px] object-cover rounded-t-md"
         />
       </div>
       <div className="flex flex-col justify-between p-3 flex-1 gap-5">
