@@ -26,7 +26,7 @@ const Intro = () => {
       <div className="w-full max-w-[820px] text-xl" data-aos="zoom-in-left">
         <p className="text-md">Hi, My name is</p>
         <br />
-        <h1 className="text-7xl bg-gradient-to-r inline-block font-bold from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-transparent bg-clip-text leading-tight">
+        <h1 className="text-7xl bg-gradient-to-r inline-block font-bold from-[#00d4ff] via-[#00ff9e] to-[#fcb045] text-transparent bg-clip-text leading-tight">
           Giang Duong.
         </h1>
         <h2 className="mt-2 text-5xl font-semibold text-primary">
@@ -34,9 +34,9 @@ const Intro = () => {
         </h2>
         <br />
         <p>
-          I’m a software engineer specializing in building (and occasionally
-          designing) exceptional user experiences. Currently, I’m focused on
-          building highly accessible app to meet user requirements.
+          I’m a Frontend software engineer specializing in building (and
+          occasionally designing) exceptional user experiences. Currently, I’m
+          focused on building highly accessible app to meet user requirements.
         </p>
         <Link href="#about">
           <Button className="mt-10">Learn more!</Button>
