@@ -10,10 +10,10 @@ const About = () => {
       </h1>
       <div className="flex flex-col justify-center items-center gap-10 mt-10 sm:flex-row">
         <div className="w-full sm:w-1/2" data-aos="fade-right">
-          <p className="text-3xl sm:text-4xl text-slate-600 font-bold">
-            DUONG TRUONG GIANG
+          <p className="text-3xl sm:text-4xl font-bold">DUONG TRUONG GIANG</p>
+          <p className="text-3xl text-pink-500 my-5">
+            Frontend Software Engineer
           </p>
-          <p className="text-3xl text-pink-500 my-5">Software Engineer</p>
           <p className="text-xl text-slate-500/80">
             I build pixel-perfect, engaging, and accessible digital experiences.
           </p>
@@ -29,17 +29,14 @@ const About = () => {
           <br />
           <p>
             Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, and a huge corporation. My main
-            focus these days is building accessible and flexible, inclusive
-            products and digital experiences for a variety of clients.
+            advertising agency, a start-up. My main focus these days is building
+            accessible and flexible, inclusive products and digital experiences
+            for a variety of clients.
           </p>
           <br />
           <p>
-            I also recently studied a AI field that covers everything you need
-            to build a web app with the Spotify API using{" "}
-            <span className="text-primary font-bold">Node & React </span>
-            along with <span className="text-primary font-bold">ChatGPT </span>
-            support tool and more.
+            Currently, I am working as a Freelancer, providing services related
+            to website design to deliver a high-quality user experience.{" "}
           </p>
           <br />
           <p>Here are a few technologies I’ve been working with recently:</p>

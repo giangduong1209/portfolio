@@ -11,6 +11,7 @@ import { sendMail } from "@/lib/mail";
 import { promises as fs } from "fs";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + "/src/app/data.json", "utf8");
@@ -40,7 +41,12 @@ export default async function Home() {
   };
 
   return (
-    <>
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
+    >
       <NavBarHeader />
       <main>
         <div className="w-full max-w-screen-2xl mx-auto px-2.5 ">
@@ -104,6 +110,6 @@ export default async function Home() {
           <p className="font-medium">Designed & Bulit by Giang Duong</p>
         </div>
       </main>
-    </>
+    </ThemeProvider>
   );
 }
