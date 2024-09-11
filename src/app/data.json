@@ -6,10 +6,12 @@
     "endDate": "1706787841000",
     "position": "Frontend Developer",
     "responsibility": [
-      "Collaborated with back-end team to integrate APIs",
-      "Built reusable code to utilise for other projects and to minimise costs.",
-      "Collaborated with designers to implement concept and design of website.",
-      "Developed designs to meet varying browser and device demands."
+      "Built reusable code and custom hooks to minimise costs.",
+      "Designing and creating React components for application",
+      "Optimized the website using technical optimizations like Debounce, Cache for maximum performance.",
+      "Participance in code reviews and contribute to the improvement of coding standards.",
+      "Participance in fix bugs within existing features.",
+      "Wrote unit tests using Jest or Vitest to test components and functionality."
     ]
   },
   {
