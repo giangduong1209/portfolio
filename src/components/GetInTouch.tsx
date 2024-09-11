@@ -88,11 +88,8 @@ const GetInTouch = ({
   }
 
   return (
-    <div className="py-20 sm:pt-60" id="getintouch">
-      <h1
-        className="text-5xl md:text-6xl text-primary font-bold"
-        data-aos="fade-up-right"
-      >
+    <div className="py-20 sm:pt-60" id="getintouch" data-aos="fade-up-right">
+      <h1 className="text-5xl md:text-6xl text-primary font-bold">
         Get In Touch
       </h1>
       <Toaster position="top-right" />
@@ -167,13 +164,9 @@ const GetInTouch = ({
             </form>
           </Form>
         </div>
-        <div
-          className="md:w-1/2 mt-10"
-          data-aos="fade-right"
-          data-duration="3000"
-        >
+        <div className="md:w-1/2 mt-10">
           <div>
-            <h2 className="uppercase font-semibold text-5xl mb-5 text-pink-500">
+            <h2 className="uppercase font-semibold text-5xl mb-5 text-green-300">
               Don&apos;t be shy
             </h2>
             <p className="text-lg">

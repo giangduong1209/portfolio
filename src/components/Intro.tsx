@@ -34,9 +34,9 @@ const Intro = () => {
         </h2>
         <br />
         <p>
-          I’m a Frontend software engineer specializing in building (and
-          occasionally designing) exceptional user experiences. Currently, I’m
-          focused on building highly accessible app to meet user requirements.
+          I’m a Frontend Developer specializing in building (and occasionally
+          designing) exceptional user experiences. Currently, I’m focused on
+          building highly accessible app to meet user requirements.
         </p>
         <Link href="#about">
           <Button className="mt-10">Learn more!</Button>

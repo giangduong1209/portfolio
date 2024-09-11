@@ -11,9 +11,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center gap-10 mt-10 sm:flex-row">
         <div className="w-full sm:w-1/2" data-aos="fade-right">
           <p className="text-3xl sm:text-4xl font-bold">DUONG TRUONG GIANG</p>
-          <p className="text-3xl text-pink-500 my-5">
-            Frontend Software Engineer
-          </p>
+          <p className="text-3xl text-green-400 my-5">Frontend Developer</p>
           <p className="text-xl text-slate-500/80">
             I build pixel-perfect, engaging, and accessible digital experiences.
           </p>
@@ -28,8 +26,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up. My main focus these days is building
+            Fast-forward to today. My main focus these days is building
             accessible and flexible, inclusive products and digital experiences
             for a variety of clients.
           </p>
@@ -47,25 +44,25 @@ const About = () => {
                 <div>
                   <Check className="text-primary" />
                 </div>
-                HTML/CSS
+                HTML, CSS
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                JavaScript (ES6+)
+                JavaScript (ES6+), TypeScript
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                React
+                React, NextJs
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                NextJs
+                Jest, Vitest
               </li>
             </ul>
             <ul className="space-y-1">
@@ -73,25 +70,25 @@ const About = () => {
                 <div>
                   <Check className="text-primary" />
                 </div>
-                TailwindsCSS
+                TailwindCSS, Bootstrap, Antd, Material UI
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                Bootstrap 5
+                Redux
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                NodeJs
+                Restfull
               </li>
               <li className="flex items-center gap-2">
                 <div>
                   <Check className="text-primary" />
                 </div>
-                MongoDB
+                GIT
               </li>
             </ul>
           </div>
