@@ -67,7 +67,7 @@ export default async function Home() {
           <Link href="https://github.com/giangduong1209">
             <Github className="text-primary hover:scale-150 transition-all" />
           </Link>
-          <Link href="https://www.linkedin.com/in/giang--duong/">
+          <Link href="https://www.linkedin.com/in/giang-duong-47840032b/">
             <Linkedin className="text-primary hover:scale-150 transition-all" />
           </Link>
           <Link href="https://www.facebook.com/profile.php?id=100009359214056">
